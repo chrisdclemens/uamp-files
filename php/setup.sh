@@ -20,6 +20,10 @@ function quit() {
 	exit 0
 }
 
+function install_php_curl() {
+  sudo apt-get install curl libcurl3 libcurl3-dev php5-curl
+}
+
 function setup_time() {
   echo 'Setting up timezone...'
   sudo cp time.ini /etc/php5/conf.d
@@ -28,4 +32,5 @@ function setup_time() {
 backup_phpini
 setup_time
 install_php_intl
+install_php_curl
 quit
