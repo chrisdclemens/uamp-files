@@ -4,10 +4,13 @@
 # http://drupalcode.org/project/drush.git/blob_plain/HEAD:/README.txt
 #
 echo "Cloning Drush into $HOME"
-git clone --recursive --branch 7.x-4.x https://github.com/drush-ops/drush.git $HOME/drush > /dev/null
+git clone --recursive https://github.com/drush-ops/drush.git $HOME/drush > /dev/null
+git co origin/6.x > /dev/null
 sudo mv $HOME/drush /etc/drush
-sudo chmod u+x /etc/drush/drush.php
+
 echo "Changing Permissions of '/etc/drush/drush.php'"
+sudo chmod u+x /etc/drush/drush.php
+
 sudo ln -s /etc/drush/drush.php /usr/bin/drush
 pushd '/etc/drush/'
 echo '
