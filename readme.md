@@ -1,4 +1,4 @@
-<h1>Ubuntu Apache mysql setup files</h1>
+<h1>Ubuntu Apache MySQL Setup Files</h1>
 
 <h2>Description</h2>
 <p>Contains a bunch of configuration files that allows quick setup of ubuntu and apache / mysql / php</p>
