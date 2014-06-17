@@ -1,4 +1,4 @@
-# Ubuntu Apache MySQL Setup Files
+# Ubuntu Apache or and maybe nginx MySQL Setup Files
 
 ## Description</h2>
 
