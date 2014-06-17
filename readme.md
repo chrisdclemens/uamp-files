@@ -11,13 +11,8 @@ Nope. Not at all. This is written for development people. These settings and set
 ## Features
 
 * Setup Oh My Zsh quickly or just use bash if you're not ready yet
-* Aliases for setting up your development box and starting Apache
-* Aliases for navigating to important folders Apache, MySQL folders
-
-
-## Helpful Aliases
-
-
+* Setting up your development box and starting Apache
+* Or if you don't like apache. Feel free to run the nginx setup
 
 ## I'm convinced. Let's get started
 
@@ -28,6 +23,9 @@ So each folder has it's on setup script. Open to that folder and then run the se
     
     ## Or php
     cd php && ./setup.sh
+    
+    ## Or let's setup nginx
+    cd nginx && ./setup.sh
     
 
 ## Pull Requests
