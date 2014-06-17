@@ -7,3 +7,29 @@ UAMP-files is a project that consists of a bunch of configuration files that all
 ## Production Ready 
 
 Nope. Not at all. This is written for development people. These settings and setup is ideal for development. It's not recommended for production because it'll open up attack vectors.
+
+## Features
+
+* Setup Oh My Zsh quickly or just use bash if you're not ready yet
+* Aliases for setting up your development box and starting Apache
+* Aliases for navigating to important folders Apache, MySQL folders
+
+
+## Helpful Aliases
+
+
+
+## I'm convinced. Let's get started
+
+So each folder has it's on setup script. Open to that folder and then run the setup
+
+    ## For example let's go here and setup drupal
+    cd drupal/ && ./setup.sh
+    
+    ## Or php
+    cd php && ./setup.sh
+    
+
+## Pull Requests
+
+The commands are commands i've found around stackoverflow and many blogging resources that i've run once. If you'd like improve them!
